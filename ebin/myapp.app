@@ -1,0 +1,10 @@
+{application,myapp,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{myapp_app,[]}},
+              {env,[]},
+              {modules,[db,db_manager,map_reduce,map_reduce_map_step,
+                        map_reduce_reduce_step,map_reduce_utils,myapp,
+                        myapp_app,myapp_sup]}]}.
